@@ -1,1 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;400&family=Oswald:wght@300;600&display=swap');
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    color: #4b5054;
+}
+
+.clear-both {
+    clear: both;
+}
+
+h1, h2 {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+    color: #4b5054;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 30px 0;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+/* Header and logo */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 3;
+    box-shadow: 0 -20px 30px #000;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+    margin: 0 0 0 20px;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu ul {
+    margin: 0;
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+#menu a:hover {
+    background-color: #e1eae7;
+    border-radius: 5px;
+}
+
+.spacing-under-nav {
+    position: relative;
+    top: -75px;
+}
+
+/* Dropdown Nav */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    z-index: 1;
+    box-shadow: 0 0 5px #808080;
+}
+
+.dropdown-content a {
+    display: block;
+    line-height: 30px;
+}
+
+/* hero-image and cover text*/
+
+#hero-outer {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 75px;
+}
+
+#hero-image {
+    width: 100%;
+    height: 600px;
+    background: url(../images/heroimage_s.webp) no-repeat center center;
+    background-size: cover;
+}
+
+#cover-text {
+    position: absolute;
+    right: 50px;
+    bottom: 300px;
+    width: 400px;
+    height: auto;
+}
+
+#cover-text h2 {
+    color: white;
+    background-color: rgba(44, 65, 56, 0.5); 
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px 10px; 
+    margin: 0;
+}
+
+/* About Section */
+
+#about-outer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#about-text {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+#pose-links {
+    margin: 50px 150px;
+}
+
+#pose-links div {
+    width: 25%;
+    float: left;
+}
+
+.mockup-images {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#pose-links h3 {
+    text-align: center;
+    font-size: 110%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#pose-links h3 a {
+    color: inherit;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#pose-links h3 a:hover {
+    background-color: #e1eae7;
+    border-radius: 5px;
+}
