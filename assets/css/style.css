@@ -162,16 +162,11 @@ header {
     margin: 50px auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    align-items: center;
 }
 
 #product-links div {
-    width: calc(33.33% - 20px);
-    margin-right: 20px;
-}
-
-#product-links div:last-child {
-    margin-right: 0;
+    width: calc(33.33% - 10px);
 }
 
 .mockup-images {
@@ -180,4 +175,5 @@ header {
     border-radius: 50%;
     text-align: center;
 }
+
 
