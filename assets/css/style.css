@@ -12,7 +12,7 @@ html {
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
-    color: #4b5054;
+    color: black;
 }
 
 .clear-both {
@@ -22,7 +22,7 @@ body {
 h1, h2 {
     font-family: Montserrat, sans-serif;
     letter-spacing: 4px;
-    color: #4b5054;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -39,7 +39,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: green;
+    background-color: lime-green;
     z-index: 3;
     box-shadow: 0 -20px 30px #000;
 }
