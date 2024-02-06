@@ -168,6 +168,7 @@ header {
 
 #product-links div {
     width: calc(33.33% - 10px);
+    text-align: center; /* Added to center-align the text */
 }
 
 .mockup-images {
