@@ -34,7 +34,6 @@ h3 {
     text-transform: uppercase;
 }
 
-/* Header and logo */
 
 header {
     position: fixed;
@@ -87,8 +86,6 @@ header {
     top: -75px;
 }
 
-/* Dropdown Nav */
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -112,7 +109,6 @@ header {
     line-height: 30px;
 }
 
-/* hero-image and cover text*/
 
 #hero-outer {
     position: relative;
@@ -147,7 +143,6 @@ header {
     margin: 0;
 }
 
-/* About Section */
 
 #about-outer {
     max-width: 1200px;
@@ -162,13 +157,15 @@ header {
     line-height: 30px;
 }
 
-#pose-links {
-    margin: 50px 150px;
+#product-links {
+    max-width: 600px; /* Adjust the max-width to your preference */
+    margin: 50px auto; /* Center the container */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute items evenly */
 }
 
-#pose-links div {
-    width: 25%;
-    float: left;
+#product-links div {
+    width: 30%; /* Set the width of each mockup container */
 }
 
 .mockup-images {
@@ -178,22 +175,4 @@ header {
     text-align: center;
     display: block;
     margin: 0 auto;
-}
-
-#pose-links h3 {
-    text-align: center;
-    font-size: 110%;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-
-#pose-links h3 a {
-    color: inherit;
-    padding: 10px;
-    text-decoration: none;
-}
-
-#pose-links h3 a:hover {
-    background-color: #e1eae7;
-    border-radius: 5px;
 }
