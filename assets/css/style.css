@@ -158,21 +158,26 @@ header {
 }
 
 #product-links {
-    max-width: 600px; /* Adjust the max-width to your preference */
-    margin: 50px auto; /* Center the container */
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Distribute items evenly */
+    max-width: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 #product-links div {
-    width: 30%; /* Set the width of each mockup container */
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+}
+
+#product-links div:last-child {
+    margin-right: 0;
 }
 
 .mockup-images {
     height: 150px;
-    width: 150px;
+    width: 100%;
     border-radius: 50%;
     text-align: center;
-    display: block;
-    margin: 0 auto;
 }
+
