@@ -186,10 +186,12 @@ header {
 
 #supplements-header {
     text-align: center;
+    background-colour: #90ee90
 }
 
 .column {
     width: 50%;
+    float: left;
 }
 
 .right {
@@ -228,5 +230,3 @@ header {
 .content-text-left h3 {
     text-align: right;
 }
-
-
