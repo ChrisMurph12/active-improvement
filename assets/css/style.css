@@ -186,7 +186,7 @@ header {
 
 #supplements-header {
     text-align: center;
-    background-colour: #90ee90
+    background-colour: #90ee90;
 }
 
 .column {
@@ -229,4 +229,9 @@ header {
 
 .content-text-left h3 {
     text-align: right;
+}
+
+.content-image img {
+    height: auto;
+    width: 100%;
 }
