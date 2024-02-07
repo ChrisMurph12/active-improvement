@@ -168,7 +168,7 @@ header {
 
 #product-links div {
     width: calc(33.33% - 10px);
-    text-align: center; /* Added to center-align the text */
+    text-align: center;
 }
 
 .mockup-images {
@@ -176,6 +176,61 @@ header {
     width: 100%;
     border-radius: 50%;
     text-align: center;
+}
+
+.supplements-content-wrapper {
+    max-width: 1200px; 
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.green-background {
+    background-color: #90ee90;
+}
+
+#supplements-header {
+    text-align: center;
+}
+
+.column {
+    width: 50%;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.content-image {
+    text-align: center;
+    padding: 50px;
+}
+
+.content-text-right {
+    text-align: justify;
+    padding: 50px;
+    line-height: 25px;
+}
+
+.content-text-left {
+    text-align: justify;
+    padding: 50px;
+    line-height: 25px;
+}
+
+.content-text-left h3, .content-text-right h3 {
+    margin-top: 0;
+}
+
+.content-text-right h3 {
+    text-align: left;
+}
+
+.content-text-left h3 {
+    text-align: right;
 }
 
 
