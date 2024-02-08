@@ -250,7 +250,7 @@ header {
     right: 0;
     bottom: 5%;
     margin: auto;
-    background-color: #000000 !important;
+    background-color: #9acd32 !important;
     max-width: 400px;
     padding: 20px;
     color: white;
@@ -283,7 +283,7 @@ textarea {
     font-size: 100%;
     text-align: center;
     border-radius: 4px;
-    color: #000000;
+    color: #9acd32;
     border: none;
     display: block;
     margin: 0 auto;
@@ -308,9 +308,9 @@ textarea {
 .social-networks i {
     font-size: 160%;
     padding: 0 30px;
-    color: #000000;
+    color: #9acd32;
 }
 
 .social-networks i:hover {
-    color: #000000;
+    color: #9acd32;
 }
