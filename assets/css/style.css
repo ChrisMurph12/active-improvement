@@ -14,6 +14,7 @@ body {
     font-weight: 300;
     color: black;
     padding-top: 75px;
+    margin-bottom: 75px;
 }
 
 .clear-both {
@@ -35,20 +36,27 @@ h3 {
     text-transform: uppercase;
 }
 
-
 header {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 75px;
     background-color: #9acd32;
     z-index: 3;
     box-shadow: 0 -20px 30px #000;
+}
+
+footer {
+    background-color: #9acd32;
+    height: 75px;
+    padding-top: 20px;
 }
 
 #logo {
     float: left;
     font-size: 200%;
     margin: 0 0 0 20px;
+    line-height: 75px;
 }
 
 #menu {
@@ -110,13 +118,11 @@ header {
     line-height: 30px;
 }
 
-
 #hero-outer {
     position: relative;
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     margin-top: 75px;
 }
 
@@ -137,14 +143,13 @@ header {
 
 #cover-text h2 {
     color: white;
-    background-color: #9acd32; 
+    background-color: #9acd32;
     font-size: 30px;
     font-weight: 700;
     text-align: center;
-    padding: 40px 10px; 
+    padding: 40px 10px;
     margin: 0;
 }
-
 
 #mission-outer {
     max-width: 1200px;
@@ -181,7 +186,7 @@ header {
 }
 
 .supplements-content-wrapper {
-    max-width: 1200px; 
+    max-width: 1200px;
     padding: 20px 0;
     margin: 0 auto;
     margin-top: 75px;
@@ -240,21 +245,23 @@ header {
     width: 100%;
 }
 
-
 #form-outer {
     width: 100%;
     position: relative;
-    margin-top: 25px;
 }
 
 #message-form {
     position: relative;
+    left: 0;
+    right: 0;
     background-color: #9acd32 !important;
     max-width: 400px;
     padding: 20px;
     color: white;
     text-align: center;
     margin: 0 auto;
+    top: 70%;
+    transform: translateY(-50%);
 }
 
 .text-input {
@@ -274,7 +281,7 @@ textarea {
 
 #checkbox {
     border: 1px solid white;
-    font-size: 14px;  
+    font-size: 14px;
 }
 
 .submit-button {
@@ -292,13 +299,6 @@ textarea {
 .submit-button:hover {
     background-color: #f5f5f5;
     cursor: pointer;
-}
-
-
-footer {
-    background-color: #9acd32;
-    height: 100px;
-    padding-top: 20px;
 }
 
 .social-networks {
@@ -320,6 +320,9 @@ footer {
 .social-networks i:hover {
     color: grey;
 }
+
+</style>
+
 
 
 
