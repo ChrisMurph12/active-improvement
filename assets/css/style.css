@@ -243,19 +243,18 @@ header {
     position: relative;
 }
 
-
 #message-form {
-    position: absolute;
-    top: 5%;
+    position: relative;
     left: 0;
     right: 0;
-    bottom: 5%;
-    margin: auto;
     background-color: #9acd32 !important;
     max-width: 400px;
     padding: 20px;
     color: white;
     text-align: center;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .text-input {
