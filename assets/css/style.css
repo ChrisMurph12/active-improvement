@@ -39,7 +39,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #90ee90;
+    background-color: #9acd32;
     z-index: 3;
     box-shadow: 0 -20px 30px #000;
 }
@@ -136,7 +136,7 @@ header {
 
 #cover-text h2 {
     color: white;
-    background-color: #90ee90; 
+    background-color: #9acd32; 
     font-size: 30px;
     font-weight: 700;
     text-align: center;
@@ -186,7 +186,7 @@ header {
 
 #supplements-header {
     text-align: center;
-    background-colour: #90ee90;
+    background-colour: #9acd32;
     padding: 10px;
 }
 
@@ -290,7 +290,7 @@ textarea {
 }
 
 .contribute-button:hover {
-    background-color: #e1eae7;
+    background-color: #9acd32;
     cursor: pointer;
 }
 
