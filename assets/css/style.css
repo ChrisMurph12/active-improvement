@@ -243,6 +243,12 @@ header {
     position: relative;
 }
 
+video {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
 #contribute-form {
     position: absolute;
     top: 5%;
@@ -250,7 +256,7 @@ header {
     right: 0;
     bottom: 5%;
     margin: auto;
-    background-color: #90ee90;
+    background-color: #142a2b;
     max-width: 400px;
     padding: 20px;
     color: white;
@@ -283,14 +289,14 @@ textarea {
     font-size: 100%;
     text-align: center;
     border-radius: 4px;
-    color: #90ee90;
+    color: #4b5054;
     border: none;
     display: block;
     margin: 0 auto;
 }
 
 .contribute-button:hover {
-    background-color: #90ee90;
+    background-color: #e1eae7;
     cursor: pointer;
 }
 
