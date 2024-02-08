@@ -238,6 +238,12 @@ header {
 }
 
 
+#form-outer {
+    width: 100%;
+    position: relative;
+}
+
+
 #message-form {
     position: absolute;
     top: 5%;
