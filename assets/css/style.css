@@ -261,9 +261,11 @@ footer {
     color: white;
     text-align: center;
     margin: 0 auto;
-    top: 70%;
+    margin-top: 100px;
+    top: 50%;
     transform: translateY(-50%);
 }
+
 
 .text-input {
     width: 90%;
