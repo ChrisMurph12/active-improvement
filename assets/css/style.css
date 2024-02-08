@@ -238,12 +238,7 @@ header {
 }
 
 
-#form-outer {
-    width: 100%;
-    position: relative;
-}
-
-#contribute-form {
+#message-form {
     position: absolute;
     top: 5%;
     left: 0;
@@ -253,7 +248,7 @@ header {
     background-color: #9acd32 !important;
     max-width: 400px;
     padding: 20px;
-    color: white;
+    color: green;
     text-align: center;
 }
 
@@ -277,7 +272,7 @@ textarea {
     font-size: 14px;  
 }
 
-.contribute-button {
+.submit-button {
     padding: 5px 20px;
     background-color: white;
     font-size: 100%;
@@ -289,7 +284,7 @@ textarea {
     margin: 0 auto;
 }
 
-.contribute-button:hover {
+.submit-button:hover {
     background-color: #9acd32;
     cursor: pointer;
 }
