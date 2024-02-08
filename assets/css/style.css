@@ -236,3 +236,60 @@ header {
     height: auto;
     width: 100%;
 }
+
+
+#form-outer {
+    width: 100%;
+    position: relative;
+}
+
+#contribute-form {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    margin: auto;
+    background-color: #90ee90;
+    max-width: 400px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.text-input {
+    width: 90%;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+}
+
+textarea {
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px 0 0 0;
+    width: 90%;
+    height: 100px;
+}
+
+#checkbox {
+    border: 1px solid white;
+    font-size: 14px;  
+}
+
+.contribute-button {
+    padding: 5px 20px;
+    background-color: white;
+    font-size: 100%;
+    text-align: center;
+    border-radius: 4px;
+    color: #90ee90;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.contribute-button:hover {
+    background-color: #90ee90;
+    cursor: pointer;
+}
