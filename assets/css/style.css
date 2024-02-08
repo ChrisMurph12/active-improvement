@@ -244,20 +244,17 @@ header {
 #form-outer {
     width: 100%;
     position: relative;
+    margin-top: 50px;
 }
 
 #message-form {
     position: relative;
-    left: 0;
-    right: 0;
     background-color: #9acd32 !important;
     max-width: 400px;
     padding: 20px;
     color: white;
     text-align: center;
     margin: 0 auto;
-    top: 70%;
-    transform: translateY(-50%);
 }
 
 .text-input {
@@ -321,10 +318,12 @@ footer {
 }
 
 .social-networks i:hover {
-    color: #9acd32;
+    color: #000000;
 }
 
 
 .social-networks i:hover {
-    color: #9acd32;
+    color: #000000;
 }
+
+
