@@ -250,7 +250,7 @@ header {
     right: 0;
     bottom: 5%;
     margin: auto;
-    background-color: #90ee90;
+    background-color: #90ee90 !important;
     max-width: 400px;
     padding: 20px;
     color: white;
