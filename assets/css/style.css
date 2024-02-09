@@ -13,8 +13,8 @@ body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: black;
-    padding-top: 75px;
-    margin-bottom: 75px;
+    padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 .clear-both {
@@ -40,7 +40,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 75px;
+    height: 60px;
     background-color: #9acd32;
     z-index: 3;
     box-shadow: 0 -20px 30px #000;
@@ -48,8 +48,7 @@ header {
 
 footer {
     background-color: #9acd32;
-    height: 75px;
-    padding-top: 20px;
+    height: 60px;
 }
 
 #logo {
@@ -60,7 +59,7 @@ footer {
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 3px;
 }
 
@@ -162,7 +161,7 @@ footer {
     display: block;
     margin: 0 auto;
     line-height: 30px;
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 #product-links {
