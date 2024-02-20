@@ -315,6 +315,7 @@ textarea {
     font-size: 160%;
     padding: 0 30px;
     color: black;
+    font-weight: bold;
 }
 
 .social-networks i:hover {
