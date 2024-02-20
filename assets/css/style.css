@@ -46,12 +46,13 @@ header {
     z-index: 3;
     box-shadow: 0 -20px 30px #000;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
 }
 
 #logo {
     max-height: 60px;
-    margin-left: 20px;
 }
 
 footer {
@@ -62,20 +63,17 @@ footer {
 #menu {
     font-size: 120%;
     letter-spacing: 3px;
-}
-
-#menu, #logo {
-    line-height: 75px;
+    line-height: 60px;
 }
 
 #menu ul {
     margin: 0;
-    float: right;
+    padding: 0;
+    list-style: none;
 }
 
 #menu li {
-    float: left;
-    list-style-type: none;
+    display: inline-block;
     margin-right: 15px;
 }
 
