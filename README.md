@@ -17,4 +17,23 @@ Active includes instructions on when, why and how to use each product to help bo
   - As a first time user I want to understand WHY these chosen products would help me more than others
 
 ### Returning User
-  - As 
+  - As a returning user I want to ask some more questions that will help mem on my journey.
+  - As a returning user I want to find out how I can purchase these products.
+
+## Design
+
+### Imagery
+The imagery used is extremely simplistic which is important to the user experience. We want them to not be overwhelmed by lots of pictures. WE keep it simple and only have 4 pictures on the site. The hero image, which is a selection of all of our products. A protein image, a pre-workout image, and a creatine image.
+
+### Colours
+The colour scheme is white and green. People associate green with healthy, so this seemed like the obvious choice of colour. The white then keeps the site looking simple and clean, allowing the font to be easily readable.
+
+### Fonts
+The Montserrat font is the main font used throughout the whole website. This font was imported via [Google Fonts](https://fonts.google.com/). I'm using Sans Serif as a backup font, in case for any reason the main font isn't being imported into the site correctly.
+
+## Wireframes
+Wireframes were produced using Balsamiq. 
+
+ <details>
+
+ <summary>Desktop Wireframe</summary>
