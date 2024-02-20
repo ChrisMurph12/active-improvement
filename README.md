@@ -37,5 +37,5 @@ Wireframes were produced using Balsamiq.
  <details>
 
  <summary>Desktop Wireframe</summary>
- ![Desktop Wireframe] (images/desktop-wireframe.png)
+ ![Desktop Wireframe](https://github.com/ChrisMurph12/active-improvement/raw/main/assets/images/desktop-wireframe.png)
  </details>
