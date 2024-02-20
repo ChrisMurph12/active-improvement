@@ -37,3 +37,5 @@ Wireframes were produced using Balsamiq.
  <details>
 
  <summary>Desktop Wireframe</summary>
+ ![Desktop Wireframe] (images/desktop-wireframe.png)
+ </details>
