@@ -53,9 +53,7 @@ footer {
 
 #logo {
     float: left;
-    font-size: 200%;
-    margin: 0 0 0 20px;
-    line-height: 75px;
+    max-height: 50px; 
 }
 
 #menu {
