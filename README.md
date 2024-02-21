@@ -1,4 +1,4 @@
-(assets/images/Logo.png)
+![Logo](assets/images/Logo.png)
 
 # Active Improvement
 
