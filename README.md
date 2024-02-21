@@ -1,4 +1,4 @@
-![Logo](assets/images/Logo.png)
+<img src="assets/images/Logo.png" alt="Logo" width="200"/>
 
 # Active Improvement
 
