@@ -70,6 +70,7 @@ footer {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
 }
 
 #menu li {
@@ -81,6 +82,7 @@ footer {
     text-decoration: none;
     color: inherit;
     padding: 10px;
+    transition: background-color 0.3s ease;
 }
 
 #menu a:hover {
@@ -91,6 +93,7 @@ footer {
 .spacing-under-nav {
     position: relative;
     top: -75px;
+    margin-top: 0;
 }
 
 .dropdown {
