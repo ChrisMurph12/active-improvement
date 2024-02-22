@@ -326,38 +326,171 @@ textarea {
     color: grey;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 1024px) {
     
-    header {
-        height: auto;
-        padding: 10px 20px;
-    }
-
     #menu {
         font-size: 100%;
     }
 
+    #menu ul, #menu li {
+        padding: 0;
+        margin: 0;
+    }
+
     #cover-text h2 {
-        font-size: 24px;
-        padding: 20px 10px;
+        font-size: 160%;
     }
 
-    .spacing-under-nav {
-        top: -60px;
+    #cover-text {
+        width: 300px;
+    }
+    
+    #mission-outer {
+        width: 70%;
+        margin: 0 auto;
     }
 
+    #mission-text {
+        width: 100%;
+    }
+
+    #product-links {
+        margin: 0
+    }
+
+    #product-links div {
+        width: 50%;
+        padding: 0;
+    }
+
+    #product-links h3 {
+        padding-top: 0
+    }
+        
     .column {
         width: 100%;
-        float: none;
     }
 
     .content-image {
-        padding: 20px;
+        padding: 50px 0 0 0;
+    }
+    
+    .content-image img {
+        width: 400px;
+        height: 400px;
     }
 
-    .content-text-right,
-    .content-text-left {
-        padding: 20px;
+    .content-text-left, .content-text-right {
+        padding: 0;
+        width: 70%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .column h3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #logo {
+        margin-bottom: 0;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 100%;
+    }
+
+    #menu, #logo {
+        line-height: 40px;
+    }
+
+    #menu ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #menu li {
+        float: left;
+        margin-right: 0px;
+    }
+    
+    .spacing-under-nav {
+        top: -80px;
+    }
+    
+    #cover-text h2 {
+        font-size: 140%;
+    }
+    
+    #cover-text {
+        padding: 10px;
+        height: auto;
+        left: 0;
+        right: 0;
+        bottom: 5%;
+        margin: auto;
+    }
+    
+    #mission-text h2 {
+        line-height: 40px;
+    }
+    
+    .mockup-images {
+        height: 150px;
+        width: 150px;
+    }
+
+    #message-form {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    #menu {
+        font-size: 65%;
+        font-weight: 600;
+    }
+
+    #logo {
+        font-size: 100%;
+    }
+
+    #logo, #menu {
+        margin-left: 8px;
+        line-height: 30px;
+    }
+
+    #menu a {
+        padding: 6px;
+    }
+
+    #cover-text {
+        left: 0;
+        right: 0;
+        bottom: 5%;
+        margin: auto;
+    } 
+
+    #product-links div {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .content-image img {
+        width: 300px;
+        height: 300px;
     }
 
     .social-networks i {
@@ -366,93 +499,13 @@ textarea {
     }
 }
 
-@media (max-width: 320px) {
-  
-    header {
-        padding: 10px;
-    }
-
-    #cover-text h2 {
-        font-size: 20px;
-        padding: 15px;
-    }
-
-    .spacing-under-nav {
-        top: -50px;
-    }
-
-    .content-image {
-        padding: 15px;
-    }
-
-    .content-text-right,
-    .content-text-left {
-        padding: 15px;
-    }
-
-    .social-networks i {
-        font-size: 120%;
-        padding: 0 15px;
-    }
-}
-
-@media (max-width: 768px) {
+@media screen and (max-width: 320px) {
     
-    header {
-        padding: 10px 20px;
+    #menu {
+        font-size: 55%;
     }
 
-    #cover-text h2 {
-        font-size: 26px;
-        padding: 20px 10px;
-    }
-
-    .spacing-under-nav {
-        top: -70px;
-    }
-
-    .content-image {
-        padding: 30px;
-    }
-
-    .content-text-right,
-    .content-text-left {
-        padding: 30px;
-    }
-
-    .social-networks i {
-        font-size: 150%;
-        padding: 0 25px;
+    #menu a {
+        padding: 4px;
     }
 }
-
-@media (max-width: 1024px) {
-    
-    header {
-        padding: 20px 40px;
-    }
-
-    #cover-text h2 {
-        font-size: 28px;
-        padding: 25px;
-    }
-
-    .spacing-under-nav {
-        top: -90px;
-    }
-
-    .content-image {
-        padding: 40px;
-    }
-
-    .content-text-right,
-    .content-text-left {
-        padding: 40px;
-    }
-
-    .social-networks i {
-        font-size: 180%;
-        padding: 0 35px;
-    }
-}
-</style>
