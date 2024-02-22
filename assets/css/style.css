@@ -205,18 +205,20 @@ header {
 }
 
 @media screen and (max-width: 480px) {
- 
+    #logo {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
     #menu {
         font-size: 65%;
         font-weight: 600;
+        text-align: center;
+        margin-top: 10px;
     }
 
-    #logo {
-        font-size: 100%;
-    }
-
-    #logo, #menu {
-        margin-left: 8px;
+    #menu, #logo {
         line-height: 30px;
     }
 
@@ -233,13 +235,19 @@ header {
 }
 
 @media screen and (max-width: 320px) {
- 
+    #logo {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
     #menu {
         font-size: 55%;
+        text-align: center;
+        margin-top: 10px;
     }
 
     #menu a {
         padding: 4px;
     }
 }
-
