@@ -3,9 +3,15 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: Montserrat, sans-serif; 
-    font-weight: 300;
+}
+
+html {
     scroll-behavior: smooth;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
     color: black;
     padding-top: 50px;
     margin-bottom: 50px;
@@ -15,11 +21,11 @@ html, body {
     clear: both;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: Montserrat, sans-serif;
     letter-spacing: 4px;
-    text-transform: uppercase;
     color: black;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -47,6 +53,11 @@ header {
 
 #logo {
     max-height: 60px;
+}
+
+footer {
+    background-color: #9acd32;
+    height: 60px;
 }
 
 #menu {
@@ -77,6 +88,12 @@ header {
 #menu a:hover {
     background-color: #e1eae7;
     border-radius: 5px;
+}
+
+.spacing-under-nav {
+    position: relative;
+    top: -75px;
+    margin-top: 0;
 }
 
 .dropdown {
@@ -135,7 +152,180 @@ header {
     margin: 0;
 }
 
-/* Media Queries */
+#mission-outer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#mission-text {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+#product-links {
+    max-width: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#product-links div {
+    width: calc(33.33% - 10px);
+    text-align: center;
+}
+
+.mockup-images {
+    height: 150px;
+    width: 100%;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.supplements-content-wrapper {
+    max-width: 1200px;
+    padding: 20px 0;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+#supplements-header {
+    text-align: center;
+    background-colour: #9acd32;
+    padding: 10px;
+}
+
+.column {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.content-image {
+    text-align: center;
+    padding: 50px;
+}
+
+.content-text-right {
+    text-align: justify;
+    padding: 50px;
+    line-height: 25px;
+}
+
+.content-text-left {
+    text-align: justify;
+    padding: 50px;
+    line-height: 25px;
+}
+
+.content-text-left h3, .content-text-right h3 {
+    margin-top: 0;
+}
+
+.content-text-right h3 {
+    text-align: left;
+}
+
+.content-text-left h3 {
+    text-align: right;
+}
+
+.content-image img {
+    height: auto;
+    width: 100%;
+}
+
+#form-outer {
+    width: 100%;
+    position: relative;
+}
+
+#message-form {
+    position: relative;
+    left: 0;
+    right: 0;
+    background-color: #9acd32 !important;
+    max-width: 400px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.text-input {
+    width: 90%;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+}
+
+textarea {
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px 0 0 0;
+    width: 90%;
+    height: 100px;
+}
+
+#checkbox {
+    border: 1px solid white;
+    font-size: 14px;
+}
+
+.submit-button {
+    padding: 5px 20px;
+    background-color: white;
+    font-size: 100%;
+    text-align: center;
+    border-radius: 4px;
+    color: #9acd32;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.submit-button:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.social-networks {
+    text-align: center;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    padding: 0 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.social-networks i:hover {
+    color: grey;
+}
+
 @media screen and (max-width: 1024px) {
    
     #menu {
@@ -170,6 +360,7 @@ header {
         margin-left: 20px;
         margin-bottom: 10px;
         font-size: 100%;
+        text-align: center; /* Center the menu */
     }
 
     #menu, #logo {
@@ -205,7 +396,7 @@ header {
 }
 
 @media screen and (max-width: 480px) {
-    
+   
     #menu {
         font-size: 65%;
         font-weight: 600;
@@ -251,7 +442,7 @@ header {
 }
 
 @media screen and (max-width: 320px) {
-  
+
     #menu {
         font-size: 55%;
     }
