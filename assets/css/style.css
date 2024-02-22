@@ -396,21 +396,23 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
-   
+
     #menu {
         font-size: 65%;
         font-weight: 600;
-        text-align: center;
     }
 
     #logo {
-        display: block;
-        margin: 0 auto;
+        font-size: 100%;
+    }
+
+    #logo, #menu {
+        margin-left: 8px;
+        line-height: 30px;
     }
 
     #menu a {
-        display: block;
-        text-align: center;
+        padding: 6px;
     }
 
     #cover-text {
@@ -423,21 +425,18 @@ textarea {
     #product-links div {
         clear: both;
         width: 100%;
-        float: none;
-        text-align: center;
+        float: left;
+        padding: 0;
     }
 
-    .mockup-images {
-        width: 150px;
-        height: 150px;
-        margin: 0 auto 20px;
+    .content-image img {
+        width: 300px;
+        height: 300px;
     }
 
     .social-networks i {
         font-size: 140%;
         padding: 0 20px;
-        display: block;
-        margin: 0 auto;
     }
 }
 
