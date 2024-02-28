@@ -6,6 +6,8 @@ Active Improvement is real company. It sells high quality but simple gym supplem
 
 Active includes instructions on when, why and how to use each product to help boost somebody's training and "Actively Improve" their all round fitness, health & wellness.
 
+The live link to the site can be found here - [Active Improvement](https://chrismurph12.github.io/active-improvement/)
+
 ## Site Owner Goals
 - Stress the importance of not spending too much money on pointless supplements that won't do anything to help the user.
 - Identify the supplemets that can make a difference, and then break each one down to explain what they are, and their benefits.
@@ -76,3 +78,8 @@ Wireframes were produced using Balsamiq.
 - ### Footer
     - The footer has 2 links. It links to our Instagram page and our Youtube page.
     - The links open in a new tab as to not disturb the user experience on our website.
+
+### Validator Testing
+- #### HTML
+    - No errors were returned when passing through the official W3C Markup Validator
+    -   - [W3C Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchrismurph12.github.io%2Factive-improvement%2F)
