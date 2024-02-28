@@ -360,7 +360,7 @@ textarea {
         margin-left: 20px;
         margin-bottom: 10px;
         font-size: 100%;
-        text-align: center; /* Center the menu */
+        text-align: center;
     }
 
     #menu, #logo {
@@ -396,6 +396,10 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
+
+    body {
+        overflow-x: hidden;
+    }
 
     #logo {
         text-align: center;
@@ -435,14 +439,14 @@ textarea {
     .content-text-left {
         width: 100%;
     }
-
-    body {
-        overflow-x: hidden;
-    }
 }
 
 @media screen and (max-width: 320px) {
    
+    body {
+        overflow-x: hidden;
+    }
+
     #logo {
         text-align: center;
     }
