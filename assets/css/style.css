@@ -422,6 +422,10 @@ textarea {
         width: 100%;
     }
 
+     #hero-outer {
+        margin-top: 10px;
+    }
+
     #cover-text {
         width: 100%;
         text-align: center;
@@ -470,6 +474,10 @@ textarea {
     #hero-image {
         width: 100%;
        
+    }
+
+     #hero-outer {
+        margin-top: 10px;
     }
 
     #cover-text {
