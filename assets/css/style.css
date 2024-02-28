@@ -435,6 +435,10 @@ textarea {
     .content-text-left {
         width: 100%;
     }
+
+    body {
+        overflow-x: hidden;
+    }
 }
 
 @media screen and (max-width: 320px) {
