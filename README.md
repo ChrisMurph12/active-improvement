@@ -83,6 +83,9 @@ Wireframes were produced using Balsamiq.
 - #### HTML
     - No errors were returned when passing through the official W3C Markup Validator
     -   - [W3C Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchrismurph12.github.io%2Factive-improvement%2F)
+- #### CSS
+    - No errors were returned when passing through the official W3C CSS Validator
+    -   - [CSS Validator Resuls](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchrismurph12.github.io%2Factive-improvement%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Form Testing
 - The form has been tested to ensure it would not submit without the required input fields being filled in.
