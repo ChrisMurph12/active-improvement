@@ -83,3 +83,65 @@ Wireframes were produced using Balsamiq.
 - #### HTML
     - No errors were returned when passing through the official W3C Markup Validator
     -   - [W3C Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchrismurph12.github.io%2Factive-improvement%2F)
+
+### Form Testing
+- The form has been tested to ensure it would not submit without the required input fields being filled in.
+
+### Links Testing
+- All links were tested manually to ensure the user is directed to the corresponding section of the website.
+- Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab. 
+
+### Browser Testing
+- The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers with no issues noted.
+
+### Device Testing
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
+- I also used the following website to test responsiveness:
+- [Am I Responsive](https://ui.dev/amiresponsive?url=https://chrismurph12.github.io/active-improvement/)
+
+### Known Bugs
+The social media icons don't show up for some reason. They work, but their corresponding logo doesn't appear. It's just a square box in its place.
+
+## Technologies Used
+
+### Languages
+- HTML5
+- CSS
+
+### Frameworks - Libraries - Programs Used
+- [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
+- [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
+- [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer.
+- [GitHub](https://github.com/) - Used for version control and hosting.
+- [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
+- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
+- [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
+
+## Deployment
+
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
+
+1. Go to the repository on GitHub.com
+2. Select 'Settings' near the top of the page.
+3. Select 'Pages' from the menu bar on the left of the page.
+4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save'.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+
+## Credits
+
+### Content
+As a Personal Trainer and supplement specialist, all content was created personally, with no outside research.
+
+### Media
+All images were created by myself for my company. The images were created on Canva. The company website can be found here to see the images that have been used. [Active Improvement Website](https://activeimprovement.co.uk/)
+
+### Resources Used
+
+- Inspiration for dropdown nav bar - [W3Schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+
+## Acknowledgments
+My mentor Antonio for his support and advice.
+
+The Code Institute slack community for their quick responses and very helpful feedback!
