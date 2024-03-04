@@ -258,11 +258,13 @@ footer {
     right: 0;
     background-color: #228b22;
     max-width: 400px;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    Padding-top: 50px;
     color: white;
     text-align: center;
     margin: 0 auto;
-    margin-top: 175px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -393,7 +395,7 @@ textarea {
     }
 
   #message-form {
-        margin-top: 175px;
+        padding-top: 50px;
     }
 }
 
@@ -458,7 +460,7 @@ textarea {
     }
 
     #message-form {
-        margin-top: 175px;
+        padding-top: 50px;
     }
 }
 
@@ -501,7 +503,7 @@ textarea {
     }
     
     #message-form {
-        margin-top: 175px;
+        padding-top: 50px;
     }
 }
 
@@ -517,7 +519,7 @@ textarea {
 }
 
     #message-form {
-        margin-top: 175px;
+        padding-top: 50px;
     }
 
 @media screen and (max-width: 768px) {
