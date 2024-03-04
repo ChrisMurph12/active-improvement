@@ -399,9 +399,9 @@ textarea {
 
     .content-text-right,
     .content-text-left {
-        width: 100%;
+        width: 90%;
         text-align: center;
-        margin-top: 10px;
+        margin: 0 auto 20px auto;
         padding: 0;
     }
 }
@@ -456,9 +456,9 @@ textarea {
     }
     .content-text-right,
     .content-text-left {
-        width: 100%;
+        width: 90%;
         text-align: center;
-        margin-top: 10px;
+        margin: 0 auto 20px auto;
     }
     .column {
         width: 100%;
@@ -510,9 +510,9 @@ textarea {
     }
     .content-text-right,
     .content-text-left {
-        width: 100%;
+        width: 90%;
         text-align: center;
-        margin-top: 10px;
+        margin: 0 auto 20px auto;
     }
     .column {
         width: 100%;
@@ -526,3 +526,4 @@ textarea {
         clear: both;
     }
 }
+
