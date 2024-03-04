@@ -392,9 +392,8 @@ textarea {
         margin-top: 20px;
     }
 
-    #form-outer {
-        max-width: 300px;
-        margin-top: 50px;
+  #message-form {
+        margin-top: 100px;
     }
 }
 
@@ -458,9 +457,8 @@ textarea {
         padding: 0;
     }
 
-    #form-outer {
-        max-width: 300px;
-        margin-top: 50px;
+    #message-form {
+        margin-top: 100px;
     }
 }
 
@@ -502,9 +500,8 @@ textarea {
         padding: 0 20px;
     }
     
-    #form-outer {
-        max-width: 300px;
-        margin-top: 50px;
+    #message-form {
+        margin-top: 100px;
     }
 }
 
@@ -519,9 +516,9 @@ textarea {
     }
 }
 
-#form-outer {
-    margin-top: 50px;
-}
+    #message-form {
+        margin-top: 100px;
+    }
 
 @media screen and (max-width: 768px) {
     #menu-links {
