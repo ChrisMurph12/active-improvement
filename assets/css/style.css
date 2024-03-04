@@ -417,6 +417,7 @@ textarea {
     #menu {
         text-align: center;
         margin-top: 10px;
+        display: block;
     }
     #hero-image {
         width: 100%;
@@ -471,7 +472,6 @@ textarea {
     }
     #menu {
         text-align: center;
-        margin-top: 10px;
     }
     #hero-image {
         width: 100%;
@@ -515,4 +515,3 @@ textarea {
         clear: both;
     }
 }
-
