@@ -394,8 +394,9 @@ textarea {
         margin-top: 20px;
     }
 
-  #message-form {
+ #message-form {
         padding-top: 50px;
+        margin-top: 150px;
     }
 }
 
@@ -461,6 +462,7 @@ textarea {
 
     #message-form {
         padding-top: 50px;
+        margin-top: 150px;
     }
 }
 
@@ -504,6 +506,7 @@ textarea {
     
     #message-form {
         padding-top: 50px;
+        margin-top: 150px;
     }
 }
 
@@ -520,6 +523,7 @@ textarea {
 
     #message-form {
         padding-top: 50px;
+        margin-top: 150px;
     }
 
 @media screen and (max-width: 768px) {
