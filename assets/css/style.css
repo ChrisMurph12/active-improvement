@@ -391,6 +391,11 @@ textarea {
         text-align: center;
         margin-top: 20px;
     }
+
+    #form-outer {
+        max-width: 300px;
+        margin-top: 50px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -452,6 +457,11 @@ textarea {
         margin: 20px auto;
         padding: 0;
     }
+
+    #form-outer {
+        max-width: 300px;
+        margin-top: 50px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -490,6 +500,11 @@ textarea {
     .social-networks i {
         font-size: 140%;
         padding: 0 20px;
+    }
+    
+    #form-outer {
+        max-width: 300px;
+        margin-top: 50px;
     }
 }
 
