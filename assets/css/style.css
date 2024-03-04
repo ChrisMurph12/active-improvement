@@ -327,7 +327,7 @@ textarea {
 }
 
 @media screen and (max-width: 1024px) {
-   
+    
     #menu {
         font-size: 100%;
     }
@@ -344,25 +344,69 @@ textarea {
     #cover-text {
         width: 300px;
     }
+    
+    #about-outer {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #about-text {
+        width: 100%;
+    }
+
+    #menu-links {
+        margin: 0;
+    }
+
+    #menu-links div {
+        width: 50%;
+        padding: 0;
+    }
+
+    #menu-links h4 {
+        padding-top: 0;
+    }
+        
+    .column {
+        width: 100%;
+    }
+
+    .content-image {
+        padding: 50px 0 0 0;
+    }
+    
+    .content-image img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .content-text-left, .content-text-right {
+        padding: 0;
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .column h3 {
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    
+
     #logo {
-        margin-bottom: 10px;
+        margin-bottom: 0;
         margin-top: 10px;
         padding-left: 5px;
-        text-align: center;
     }
     
     #menu {
         clear: left;
-        float: none;
-        margin: 0 auto;
+        float: left;
+        margin-left: 20px;
         margin-bottom: 10px;
         font-size: 100%;
-        text-align: center;
-        width: 100%;
     }
 
     #menu, #logo {
@@ -375,7 +419,7 @@ textarea {
     }
     
     #menu li {
-        float: none;
+        float: left;
         margin-right: 0px;
     }
     
@@ -394,142 +438,69 @@ textarea {
         right: 0;
         bottom: 5%;
         margin: auto;
-        width: 100%;
+    }
+    
+    #about-text h2 {
+        line-height: 40px;
     }
 
-    .content-text-right,
-    .content-text-left {
-        width: 90%;
-        text-align: center;
-        margin: 20px auto;
-        padding: 0;
+    #contact-form {
+        max-width: 300px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    body {
-        overflow-x: hidden;
-    }
-    #logo {
-        text-align: center;
-        margin: 10px auto 0;
-    }
+
     #menu {
-        text-align: center;
-        margin-top: 10px;
-        display: block;
-        width: auto;
-    }
-    #menu ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
-    #menu li {
-        display: inline-block;
-        margin: 0 10px;
-    }
-    #hero-image {
-        width: 100%;
-    }
-    #hero-outer {
-        margin-top: 0;
-    }
-    #cover-text {
-        width: 100%;
-        text-align: center;
-    }
-    #product-links {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    #product-links div {
-        width: calc(50% - 10px);
-        margin: 10px;
-    }
-    .mockup-images {
-        width: 100%;
-        border-radius: 50%;
-    }
-    .content-text-right,
-    .content-text-left {
-        width: 90%;
-        text-align: center;
-        margin: 20px auto;
-        padding: 0;
-    }
-    #form {
-        margin-top: 20px;
-    }
-    .column {
-        width: 100%;
-        float: none;
-    }
-    .content-text-right,
-    .content-text-left {
-        padding: 20px;
-    }
-    .column:nth-child(odd) {
+        font-size: 65%;
+        font-weight: 600;
         clear: both;
+        float: none;
+        margin: 10px auto;
+    }
+
+    #logo {
+        font-size: 100%;
+        text-align: center;
+    }
+
+    #menu a {
+        padding: 6px;
+    }
+
+    #cover-text {
+        left: 0;
+        right: 0;
+        bottom: 5%;
+        margin: auto;
+    } 
+
+    #menu-links div {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .content-image img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .social-networks i {
+        font-size: 140%;
+        padding: 0 20px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    body {
-        overflow-x: hidden;
-    }
-    #logo {
-        text-align: center;
-        margin: 10px auto 0;
-    }
+    
     #menu {
-        text-align: center;
+        font-size: 55%;
     }
-    #hero-image {
-        width: 100%;
-    }
-    #hero-outer {
-        margin-top: 0;
-    }
-    #cover-text {
-        width: 100%;
-        text-align: center;
-    }
-    #product-links {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    #product-links div {
-        width: calc(50% - 10px);
-        margin: 10px;
-    }
-    .mockup-images {
-        width: 100%;
-        border-radius: 50%;
-    }
-    .content-text-right,
-    .content-text-left {
-        width: 90%;
-        text-align: center;
-        margin: 20px auto;
-    }
-    #form {
-        margin-top: 20px;
-    }
-    .column {
-        width: 100%;
-        float: none;
-    }
-    .content-text-right,
-    .content-text-left {
-        padding: 20px;
-    }
-    .column:nth-child(odd) {
-        clear: both;
+
+    #menu a {
+        padding: 4px;
     }
 }
 
