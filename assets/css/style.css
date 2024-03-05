@@ -54,7 +54,7 @@ header {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     top: auto;
     bottom: 0;
     background-color: #228b22;
