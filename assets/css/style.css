@@ -50,7 +50,7 @@ header {
 }
 
 #logo {
-    max-height: 60px;
+    max-height: 50px;
 }
 
 footer {
@@ -59,8 +59,8 @@ footer {
 
 #menu {
     font-size: 120%;
-    letter-spacing: 3px;
-    line-height: 60px;
+    letter-spacing: 2px;
+    line-height: 50px;
 }
 
 #menu ul {
@@ -397,16 +397,16 @@ textarea {
 @media screen and (max-width: 768px) {
 
     #logo {
+        margin: auto;
         margin-bottom: 10px;
         margin-top: 10px;
-        padding-left: 5px;
     
     }
     
     #menu {
         clear: left;
         float: left;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-bottom: 10px;
         font-size: 100%;
     }
@@ -460,12 +460,8 @@ textarea {
 @media screen and (max-width: 480px) {
 
     #menu {
-        font-size: 65%;
+        font-size: 55%;
         font-weight: 600;
-    }
-
-    #logo {
-        text-align: left;
     }
 
     #menu a {
@@ -494,7 +490,7 @@ textarea {
 @media screen and (max-width: 320px) {
     
     #menu {
-        font-size: 55%;
+        font-size: 45%;
     }
 
     #menu a {
