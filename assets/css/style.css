@@ -118,7 +118,7 @@ footer {
 
 #hero-outer {
     position: relative;
-    height: 800px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
     margin-top: 75px;
@@ -126,7 +126,7 @@ footer {
 
 #hero-image {
     width: 100%;
-    height: 800px;
+    height: 400px;
     background: url(https://raw.githubusercontent.com/ChrisMurph12/active-improvement/main/assets/images/hero-pic.png) no-repeat center center;
     background-size: contain;
 }
