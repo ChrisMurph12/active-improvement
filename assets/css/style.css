@@ -57,8 +57,10 @@ footer {
     background-color: #228b22;
     height: 60px;
     width: 100%;
-    position: fixed;
-    z-index: 4;
+    position: absolute;
+    z-index: 5;
+    visibility: visible;
+    bottom: 0;
 }
 
 #menu {
