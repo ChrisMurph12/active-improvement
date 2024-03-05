@@ -54,13 +54,14 @@ header {
 }
 
 footer {
+    position: absolute;
+    top: auto;
+    bottom: 0;
     background-color: #228b22;
     height: 60px;
     width: 100%;
-    position: absolute;
     z-index: 5;
-    visibility: visible;
-    bottom: 0;
+    
 }
 
 #menu {
