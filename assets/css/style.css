@@ -51,6 +51,7 @@ header {
 
 #logo {
     max-height: 50px;
+    display: flex;
 }
 
 footer {
@@ -58,9 +59,9 @@ footer {
 }
 
 #menu {
-    font-size: 120%;
-    letter-spacing: 2px;
-    line-height: 50px;
+    font-size: 110%;
+    letter-spacing: 1px;
+    line-height: 40px;
 }
 
 #menu ul {
@@ -460,7 +461,7 @@ textarea {
 @media screen and (max-width: 480px) {
 
     #menu {
-        font-size: 55%;
+        font-size: 50%;
         font-weight: 600;
     }
 
