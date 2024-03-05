@@ -407,9 +407,9 @@ textarea {
     #menu {
         clear: left;
         float: left;
-        margin-left: 10px;
-        margin-bottom: 10px;
-        font-size: 100%;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        font-size: 90%;
     }
 
     #menu, #logo {
@@ -423,7 +423,7 @@ textarea {
     
     #menu li {
         float: left;
-        margin-right: 5px;
+        margin-right: 10px;
     }
     
     .spacing-under-nav {
