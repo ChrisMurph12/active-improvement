@@ -54,15 +54,7 @@ header {
 }
 
 footer {
-    Position: absolute;
-    top: auto;
-    bottom: 0;
     background-color: #228b22;
-    height: 60px;
-    width: 100%;
-    z-index: 5;
-    margin-top: 20px;
-    
 }
 
 #menu {
