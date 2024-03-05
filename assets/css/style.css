@@ -397,7 +397,7 @@ textarea {
 @media screen and (max-width: 768px) {
 
     #logo {
-        margin-bottom: 0;
+        margin-bottom: 10px;
         margin-top: 10px;
         padding-left: 5px;
     
@@ -422,7 +422,7 @@ textarea {
     
     #menu li {
         float: left;
-        margin-right: 0px;
+        margin-right: 5px;
     }
     
     .spacing-under-nav {
@@ -465,7 +465,6 @@ textarea {
     }
 
     #logo {
-        font-size: 100%;
         text-align: left;
     }
 
