@@ -54,7 +54,7 @@ Wireframes were produced using Balsamiq.
 ## Features
 - ### Navigation
 
-    - The navigation bar links to each section of the page. People can click on Home, Our Mission, Supplements, and Help & Advice.
+    - The navigation bar links to each section of the page. People can click on Home, Mission, Supplements, and Help.
     - The Supplements option has a drop down link to each supplement on the page for people to click through to the specific supplement they want more information on.
     - The bar is fixed so that it is visible at all times for easy navigation for the user.
  
@@ -101,6 +101,8 @@ Wireframes were produced using Balsamiq.
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
 - I also used the following website to test responsiveness:
 - [Am I Responsive](https://ui.dev/amiresponsive?url=https://chrismurph12.github.io/active-improvement/)
+
+![Lighthouse score](docs/images/lightlouse.png)
 
 ### Known Bugs
 The social media icons don't show up for some reason. They work, but their corresponding logo doesn't appear. It's just a square box in its place.
