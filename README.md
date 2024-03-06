@@ -102,6 +102,9 @@ Wireframes were produced using Balsamiq.
 - I also used the following website to test responsiveness:
 - [Am I Responsive](https://ui.dev/amiresponsive?url=https://chrismurph12.github.io/active-improvement/)
 
+### Accessibility 
+    - The site achieved a Lighthouse score of 99%.
+
 ![Lighthouse score](assets/images/lighthouse.png)
 
 ### Known Bugs
