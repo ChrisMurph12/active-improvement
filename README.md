@@ -146,5 +146,6 @@ All images were created by myself for my company. The images were created on Can
 
 ## Acknowledgments
 My mentor Antonio for his support and advice.
+Former Student Ali OKeefe (provided by my mentor) for inspiration on site layout and css structure.
 
 The Code Institute slack community for their quick responses and very helpful feedback!
