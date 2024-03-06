@@ -102,7 +102,7 @@ Wireframes were produced using Balsamiq.
 - I also used the following website to test responsiveness:
 - [Am I Responsive](https://ui.dev/amiresponsive?url=https://chrismurph12.github.io/active-improvement/)
 
-![Lighthouse score](docs/images/lighthouse.png)
+![Lighthouse score](assets/images/lighthouse.png)
 
 ### Known Bugs
 The social media icons don't show up for some reason. They work, but their corresponding logo doesn't appear. It's just a square box in its place.
