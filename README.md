@@ -57,27 +57,33 @@ Wireframes were produced using Balsamiq.
     - The navigation bar links to each section of the page. People can click on Home, Mission, Supplements, and Help.
     - The Supplements option has a drop down link to each supplement on the page for people to click through to the specific supplement they want more information on.
     - The bar is fixed so that it is visible at all times for easy navigation for the user.
+    - [Navigation Bar](assets/images/navigation.png)
  
 - ### Hero Image
 
     - The Hero Image includes a main image of all available supplements and some wording for people to immediately understand what the site is about.
+    - [Hero Image](assets/images/hero-image.png)
 
 - ### Our Mission Section
 
     - The Our Mission section shows users what we're all about. It clearly outlines our mission of manufacturing the best quality products that help with overall fitness, health & wellness.
     - It also explains WHY we have that goal, which is extremely important to include as we want to stress the importance of keeping things as simple as possible.
+    - [Our Mission Section](assets/images/mission.png)
  
 - ### Supplements Section
     - This section provides a more in-depth look of each supplement that we offer; protein, pre workout and creatine.
     - Each product has an initial bio of what the product is, followed by how we have made the product, finishing with 4/5 key benefits of that product.
+    - [Supplements Section](assets/images/products.png)
 
 - ### Help & Advice Section
     - The Help & Advice section is designed for people who have any questions around health, fitness & wellness.
     - We don't want to be limited by the information we have on the page. Everybody has individual needs and we want to be accessible to people who have specific questions.
+    - [Help & Advice Section](assets/images/help-section.png)
  
 - ### Footer
     - The footer has 2 links. It links to our Instagram page and our Youtube page.
     - The links open in a new tab as to not disturb the user experience on our website.
+    - [Footer](assets/images/footer.png)
 
 ### Validator Testing
 - #### HTML
